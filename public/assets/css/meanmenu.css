@@ -81,10 +81,17 @@ a.meanmenu-reveal {
 }
 
 .mean-container .mean-nav ul li li a {
-    width: 80%;
-    padding: 10px 10%;
+    width: 98%;
+    padding: 10px 12px;
     text-shadow: none !important;
-    visibility: visible
+    visibility: visible;
+    background: #faf9f8;
+}
+
+.mean-container .mean-nav ul li li a span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .mean-container .mean-nav ul li.mean-last a {
@@ -93,8 +100,9 @@ a.meanmenu-reveal {
 }
 
 .mean-container .mean-nav ul li li li a {
-    width: 70%;
-    padding: 10px 15%
+    width: 80%;
+    padding: 10px 25px;
+    background: #f5f1ed;
 }
 
 .mean-container .mean-nav ul li li li li a {
