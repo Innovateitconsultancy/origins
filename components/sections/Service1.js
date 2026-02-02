@@ -123,7 +123,7 @@ export default function Service1() {
                                 <SwiperSlide>
                                     <div className="service-card-items">
                                         <div className="service-image">
-                                            <img src="/assets/img/therapy/ultraviv.jpg" alt="therapy-img" />
+                                            <img src="/assets/img/therapy/ultravivnew.jpg" alt="therapy-img" />
                                         </div>
                                         <div className="service-content">
                                             <h4>Ultraviv</h4>
