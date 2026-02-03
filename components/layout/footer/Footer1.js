@@ -1,25 +1,20 @@
 import Link from "next/link"
 
 export default function Footer1() {
+    const scrollTop = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    };
     return (
         <>
 
-            <footer className="footer-section">
-                <div className="footer-widgets-wrapper footer-bg">
-                    <div className="shape-1">
-                        <img src="/assets/img/footer-shape-1.png" alt="shape-img" />
-                    </div>
-                    <div className="shape-2">
-                        <img src="/assets/img/footer-shape-2.png" alt="shape-img" />
-                    </div>
+            <footer className="footer-section footer-bg">
+                <div className="footer-widgets-wrapper">
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                                 <div className="single-footer-widget">
                                     <div className="widget-head">
-                                        <Link href="/">
-                                            <img src="/assets/img/logo/white-logo.svg" alt="logo-img" />
-                                        </Link>
+                                        <h3>About Us</h3>
                                     </div>
                                     <div className="footer-content">
                                         <p>
@@ -43,33 +38,66 @@ export default function Footer1() {
                                     </div>
                                     <ul className="list-area">
                                         <li>
-                                            <Link href="/about">
+                                            <Link href="/">
                                                 <i className="fa-solid fa-chevron-right" />
-                                                Infotech About
+                                                IV Drip Therapy
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service">
+                                            <Link href="/">
                                                 <i className="fa-solid fa-chevron-right" />
-                                                Our Services
+                                                Vitamin Shots
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/news">
+                                            <Link href="/">
                                                 <i className="fa-solid fa-chevron-right" />
-                                                Our Blogs
+                                                Nutrients
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/faq">
+                                            <Link href="/">
                                                 <i className="fa-solid fa-chevron-right" />
-                                                FAQ’S
+                                                Precision Nutrition
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/contact">
+                                            <Link href="/">
                                                 <i className="fa-solid fa-chevron-right" />
-                                                Contact Us
+                                                Precision IV
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/">
+                                                <i className="fa-solid fa-chevron-right" />
+                                                Blood Testing
+                                            </Link>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".5s">
+                                <div className="single-footer-widget style-margin">
+                                    <div className="widget-head">
+                                        <h3>Services</h3>
+                                    </div>
+                                    <ul className="list-area">
+                                        <li>
+                                            <Link href="/">
+                                                <i className="fa-solid fa-chevron-right" />
+                                                Mobile IV Therapy
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/">
+                                                <i className="fa-solid fa-chevron-right" />
+                                                Group Bookings
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/">
+                                                <i className="fa-solid fa-chevron-right" />
+                                                Corporate Events
                                             </Link>
                                         </li>
                                     </ul>
@@ -78,103 +106,61 @@ export default function Footer1() {
                             <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                                 <div className="single-footer-widget style-margin">
                                     <div className="widget-head">
-                                        <h3>Recent Posts</h3>
+                                        <h3>Company</h3>
                                     </div>
-                                    <div className="recent-post-area">
-                                        <div className="recent-post-items">
-                                            <div className="thumb">
-                                                <img src="/assets/img/news/pp1.jpg" alt="post-img" />
-                                            </div>
-                                            <div className="content">
-                                                <ul className="post-date">
-                                                    <li>
-                                                        <i className="fa-solid fa-calendar-days me-2" />
-                                                        20 Feb, 2024
-                                                    </li>
-                                                </ul>
-                                                <h6>
-                                                    <Link href="/news-details">
-                                                        Top 5 Most Famous <br />
-                                                        Technology Trend In 2024
-                                                    </Link>
-                                                </h6>
-                                            </div>
-                                        </div>
-                                        <div className="recent-post-items mb-0">
-                                            <div className="thumb">
-                                                <img src="/assets/img/news/pp2.jpg" alt="post-img" />
-                                            </div>
-                                            <div className="content">
-                                                <ul className="post-date">
-                                                    <li>
-                                                        <i className="fa-solid fa-calendar-days me-2" />
-                                                        15 Dec, 2024
-                                                    </li>
-                                                </ul>
-                                                <h6>
-                                                    <Link href="/news-details">
-                                                        The Surfing Man Will Blow <br />
-                                                        Your Mind
-                                                    </Link>
-                                                </h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-3 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp" data-wow-delay=".9s">
-                                <div className="single-footer-widget">
-                                    <div className="widget-head">
-                                        <h3>Contact Us</h3>
-                                    </div>
-                                    <div className="footer-content">
-                                        <ul className="contact-info">
-                                            <li>
-                                                <i className="fas fa-map-marker-alt" />
-                                                6391 Elgin St. Celina, USA
-                                            </li>
-                                            <li>
-                                                <i className="fa-solid fa-phone-volume" />
-                                                <Link href="/tel:2086660112">+208-666-0112</Link>
-                                            </li>
-                                            <li>
-                                                <i className="fa-regular fa-envelope" />
-                                                <Link href="/mailto:infotech@gmail.com">Infotech@gmail.com</Link>
-                                            </li>
-                                        </ul>
-                                        <Link href="/contact" className="theme-btn hover-white mt-4">
-                                            get A Quote
-                                            <i className="fa-solid fa-arrow-right-long" />
-                                        </Link>
-                                    </div>
+                                    <ul className="list-area">
+                                        <li>
+                                            <Link href="/about">
+                                                <i className="fa-solid fa-chevron-right" />
+                                                About Us
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/">
+                                                <i className="fa-solid fa-chevron-right" />
+                                                Blog
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/">
+                                                <i className="fa-solid fa-chevron-right" />
+                                                FAQs
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/">
+                                                <i className="fa-solid fa-chevron-right" />
+                                                Memberships
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/">
+                                                <i className="fa-solid fa-chevron-right" />
+                                                Contact Us
+                                            </Link>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="footer-bottom">
+                <div className="footer-bottom style-3">
                     <div className="container">
                         <div className="footer-wrapper d-flex align-items-center justify-content-between">
-                            <p className="wow fadeInLeft color-2" data-wow-delay=".3s">
-                                © All Copyright {new Date().getFullYear()} by <Link href="/">Infotech</Link>
+                            <div className="footer-logo wow fadeInLeft" data-wow-delay=".3s">
+                                <Link href="/">
+                                    <img src="/assets/img/logo/logo-white.png" alt="logo-img" />
+                                </Link>
+                            </div>
+                            <p className="wow fadeInRight color-2" data-wow-delay=".5s">
+                                Copyright &copy; {new Date().getFullYear()}. All Rights Reserved.
                             </p>
-                            <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
-                                <li>
-                                    <Link href="/contact">
-                                        Terms &amp; Condition
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/contact">
-                                        Privacy Policy
-                                    </Link>
-                                </li>
-                            </ul>
                         </div>
                     </div>
-                    <Link href="#" id="scrollUp" className="scroll-icon">
+                    <span id="scrollUp" className="scroll-icon" onClick={scrollTop}>
                         <i className="far fa-arrow-up" />
-                    </Link>
+                    </span>
                 </div>
             </footer>
 

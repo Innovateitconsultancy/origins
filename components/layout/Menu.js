@@ -27,7 +27,7 @@ export default function Menu() {
                             <div className="homemenu-items">
                                 <div className="homemenu">
                                     <div className="demo-button">
-                                        <Link href="/" className="theme-btn">
+                                        <Link href="/iv-drip-therapy/miniboost" className="theme-btn">
                                             Miniboost
                                             <span>Wellness & Detox</span>
                                             <i className="fas fa-arrow-right-long" />

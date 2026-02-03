@@ -38,7 +38,7 @@ export default function MobileMenu() {
                                         <Link href="/iv-drip-therapy">IV Drip Therapy</Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/iv-drip-therapy/miniboost">
                                             Miniboost
                                             <span>Wellness & Detox</span>
                                         </Link>
