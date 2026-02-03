@@ -1,6 +1,4 @@
-
-
-export default function Marque1() {
+export default function MarqueSection() {
     return (
         <>
             <div className="marque-section">

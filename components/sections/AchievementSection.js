@@ -1,4 +1,4 @@
-export default function Achievement1() {
+export default function AchievementSection() {
     return (
         <>
             <section className="achievement-section fix">

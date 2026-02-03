@@ -1,7 +1,6 @@
-
 import Link from 'next/link'
 
-export default function Team2() {
+export default function DiscoverSection() {
     return (
         <>
             <section className="team-section-2 section-padding bg-cover">
@@ -22,7 +21,7 @@ export default function Team2() {
                                 <div className="team-content">
                                     <h3>IV drip therapy</h3>
                                     <p>Personalized and precision nutrition delivered via IV Drip Therapy.</p>
-                                    <Link href="/" className="theme-btn-3 mt-3 text-end d-block">Find out more</Link>
+                                    <Link href="/iv-drip-therapy" className="theme-btn-3 mt-3 text-end d-block">Find out more</Link>
                                 </div>
                             </div>
                         </div>

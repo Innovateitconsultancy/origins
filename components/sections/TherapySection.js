@@ -37,7 +37,7 @@ const swiperOptions = {
     },
 }
 
-export default function Service1() {
+export default function TherapySection() {
     return (
         <>
             <section className="service-section fix section-padding bg-cover">

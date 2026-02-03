@@ -10,7 +10,7 @@ import News2 from "@/components/sections/News2"
 import Offer1 from "@/components/sections/Offer1"
 import Project2 from "@/components/sections/Project2"
 import Service2 from "@/components/sections/Service2"
-import Team2 from "@/components/sections/Team2"
+import Team2 from "@/components/sections/DiscoverSection"
 import Testimonial2 from "@/components/sections/Testimonial2"
 export default function Home2Single() {
 

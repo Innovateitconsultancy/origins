@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function Hero1() {
+export default function HeroSection() {
     return (
         <>
             <section className="hero-section fix hero-1 bg-cover">

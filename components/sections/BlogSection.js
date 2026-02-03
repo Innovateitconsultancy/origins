@@ -1,7 +1,6 @@
-
 import Link from 'next/link'
 
-export default function News1() {
+export default function BlogSection() {
     return (
         <>
             <section className="news-section section-padding fix" id="blog">
