@@ -4,8 +4,7 @@ export const metadata = {
     description: 'IV Drip Therapy Origins IV Drip Therapy & IV Vitamin Infusions',
 };
 
-export default function OriginsTherapy() {
-
+export default function IVDripTherapy() {
     return (
         <>
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="IV Drip Therapy">
@@ -16,7 +15,7 @@ export default function OriginsTherapy() {
                                 <div className="col-lg-12">
                                     <div className="project-details-items">
                                         <div className="details-image">
-                                            <img src="/assets/img/iv-drip-therapy-img1.jpg" alt="img" />
+                                            <img src="/assets/img/therapy/iv-drip-therapy-img1.jpg" alt="img" />
                                         </div>
                                         <div className="row g-4 justify-content-between">
                                             <div className="col-lg-7">
@@ -27,7 +26,7 @@ export default function OriginsTherapy() {
                                             </div>
                                             <div className="col-lg-4">
                                                 <div className="project-catagory">
-                                                    <img src="/assets/img/iv-drip-therapy.jpg" alt="img" />
+                                                    <img src="/assets/img/therapy/iv-drip-therapy.jpg" alt="img" />
                                                 </div>
                                             </div>
                                         </div>
@@ -35,10 +34,10 @@ export default function OriginsTherapy() {
                                             <h3>How is it administered?</h3>
                                             <p>IV drip therapy is a clinical procedure in which a customized blend of fluids, vitamins, minerals, and nutrients is infused directly into the bloodstream through a vein using an IV cannula. The cannula is gently placed into the vein and connected to a thin tube, which links to an IV bag holding the prepared solution, allowing the nutrients to flow steadily into the body.</p>
                                         </div>
-                                        <div className="row g-5 pt-5">
+                                        <div className="row g-lg-5 g-4 pt-5">
                                             <div className="col-lg-5">
                                                 <div className="thumb">
-                                                    <img src="/assets/img/iv-drip-therapy-img2.jpg" alt="img" />
+                                                    <img src="/assets/img/therapy/iv-drip-therapy-img2.jpg" alt="img" />
                                                 </div>
                                             </div>
                                             <div className="col-lg-7">
