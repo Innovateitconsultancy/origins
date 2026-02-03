@@ -1,133 +1,63 @@
 import Layout from "@/components/layout/Layout"
-export default function ProjectDetails() {
+export const metadata = {
+    title: 'IV Drip Therapy || Origins',
+    description: 'IV Drip Therapy Origins IV Drip Therapy & IV Vitamin Infusions',
+};
+
+export default function OriginsTherapy() {
 
     return (
         <>
-
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="IV Drip Therapy">
-                <section className="Project-details-section fix section-padding">
+                <section className="Project-details-section fix section-padding inner">
                     <div className="container">
                         <div className="project-details-wrapper">
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="project-details-items">
                                         <div className="details-image">
-                                            <img src="/assets/img/project/details.jpg" alt="img" />
+                                            <img src="/assets/img/iv-drip-therapy-img1.jpg" alt="img" />
                                         </div>
                                         <div className="row g-4 justify-content-between">
                                             <div className="col-lg-7">
                                                 <div className="details-content pt-5">
-                                                    <h3>IT Management</h3>
-                                                    <p>
-                                                        Nulla faucibus malesuada. In placerat feugiat eros ac tempor. Integer euismod massa sapien, et consequat enim laoreet et. Nulla sit amet nisi dapibus, gravida turpis sit amet, accumsan nisl. Fusce vel semper risus. Morbi congue eros sagittis, sodales turpis venenatis, iaculis dui. Proin ac purus sed nibh dapibus neque. scelerisque sed quis ante.
-                                                    </p>
+                                                    <h3>IV Drip Therapy</h3>
+                                                    <p>IV drip therapy is a modern wellness treatment that delivers essential nutrients directly into the bloodstream through a cannula. By bypassing the digestive system, it ensures faster absorption and immediate effectiveness, helping support hydration, energy, immunity, and overall well-being. The therapy is safely administered by trained professionals and can be customized to meet individual health and lifestyle needs.</p>
                                                 </div>
                                             </div>
                                             <div className="col-lg-4">
                                                 <div className="project-catagory">
-                                                    <h3>Project Info: </h3>
-                                                    <ul>
-                                                        <li>
-                                                            Client:
-                                                            <span>Ralph Edwards</span>
-                                                        </li>
-                                                        <li>
-                                                            Category:
-                                                            <span>IT Management</span>
-                                                        </li>
-                                                        <li>
-                                                            Location:
-                                                            <span>Landon</span>
-                                                        </li>
-                                                        <li>
-                                                            Share:
-                                                            <span>
-                                                                <i className="fa-brands fa-facebook-f me-3" />
-                                                                <i className="fa-brands fa-instagram me-3" />
-                                                                <i className="fa-brands fa-linkedin-in" />
-                                                            </span>
-                                                        </li>
-                                                    </ul>
+                                                    <img src="/assets/img/iv-drip-therapy.jpg" alt="img" />
                                                 </div>
-                                            </div>
-                                        </div>
-                                        <div className="details-content pt-3">
-                                            <h3>Our Challenge</h3>
-                                            <p>
-                                                Pellentesque egestas rutrum nibh facilisis ultrices. Phasellus in magna ut orci malesuada sollicitudin. Aenean faucibus scelerisque convallis. Quisque interdum mauris id nunc molestie, ac tincidunt erat gravida. Nullam dui libero, mollis ac quam et, venenatis tincidunt quam. Proin nec volutpat ligula, id porttitor augue. Proin id volutpat massa. Vivamus tincidunt nunc justo, ac aliquam ex molestie id.
-                                            </p>
-                                        </div>
-                                        <div className="row g-4 pt-5">
-                                            <div className="col-lg-3 col-md-6">
-                                                <ul className="list">
-                                                    <li>
-                                                        <i className="fa-regular fa-circle-check" />
-                                                        Branding and design Identity
-                                                    </li>
-                                                    <li>
-                                                        <i className="fa-regular fa-circle-check" />
-                                                        Web site Marketing Solutions
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div className="col-lg-3 col-md-6">
-                                                <ul className="list">
-                                                    <li>
-                                                        <i className="fa-regular fa-circle-check" />
-                                                        Branding and design Identity
-                                                    </li>
-                                                    <li>
-                                                        <i className="fa-regular fa-circle-check" />
-                                                        Web site Marketing Solutions
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div className="col-lg-3 col-md-6">
-                                                <ul className="list">
-                                                    <li>
-                                                        <i className="fa-regular fa-circle-check" />
-                                                        Branding and design Identity
-                                                    </li>
-                                                    <li>
-                                                        <i className="fa-regular fa-circle-check" />
-                                                        Web site Marketing Solutions
-                                                    </li>
-                                                </ul>
                                             </div>
                                         </div>
                                         <div className="details-content pt-5">
-                                            <h3>The Result of Project</h3>
-                                            <p>
-                                                Pellentesque egestas rutrum nibh facilisis ultrices. Phasellus in magna ut orci malesuada sollicitudin. Aenean faucibus scelerisque convallis. Quisque interdum mauris id nunc molestie, ac tincidunt erat gravida. Nullam dui libero, mollis ac quam et, venenatis tincidunt quam. Proin nec volutpat ligula, id porttitor augue. Proin id volutpat massa. Vivamus tincidunt nunc justo, ac aliquam ex molestie id.
-                                            </p>
+                                            <h3>How is it administered?</h3>
+                                            <p>IV drip therapy is a clinical procedure in which a customized blend of fluids, vitamins, minerals, and nutrients is infused directly into the bloodstream through a vein using an IV cannula. The cannula is gently placed into the vein and connected to a thin tube, which links to an IV bag holding the prepared solution, allowing the nutrients to flow steadily into the body.</p>
                                         </div>
-                                        <div className="row g-4 pt-5">
-                                            <div className="col-lg-6 col-md-6">
+                                        <div className="row g-5 pt-5">
+                                            <div className="col-lg-5">
                                                 <div className="thumb">
-                                                    <img src="/assets/img/project/details-2.jpg" alt="img" />
+                                                    <img src="/assets/img/iv-drip-therapy-img2.jpg" alt="img" />
                                                 </div>
                                             </div>
-                                            <div className="col-lg-6 col-md-6">
-                                                <div className="thumb">
-                                                    <img src="/assets/img/project/details-3.jpg" alt="img" />
+                                            <div className="col-lg-7">
+                                                <div className="details-content">
+                                                    <h3>What are the benefits?</h3>
+                                                    <p className="mb-2">
+                                                        <b>Speed</b><br />
+                                                        IV drip therapy delivers nutrients straight into the bloodstream, allowing the body to access them immediately.
+                                                    </p>
+                                                    <p className="mb-2">
+                                                        <b>Efficiency</b><br />
+                                                        Because the nutrients bypass the digestive system, they can be absorbed fully and utilized more effectively by the body.
+                                                    </p>
+                                                    <p>
+                                                        <b>Convenience</b><br />
+                                                        IV drip therapy sessions are typically completed within 30 to 60 minutes, making it a practical option for people with busy lifestyles who want a fast and efficient nutrient boost.
+                                                    </p>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div className="preview-area">
-                                        <div className="preview-item">
-                                            <img src="/assets/img/project/p-1.png" alt="img" />
-                                            <div className="content">
-                                                <h3>Preview</h3>
-                                                <p>Analytic Solutions</p>
-                                            </div>
-                                        </div>
-                                        <div className="preview-item">
-                                            <div className="content text-right">
-                                                <h3>Next</h3>
-                                                <p>Software Development</p>
-                                            </div>
-                                            <img src="/assets/img/project/p-2.png" alt="img" />
                                         </div>
                                     </div>
                                 </div>
@@ -135,7 +65,6 @@ export default function ProjectDetails() {
                         </div>
                     </div>
                 </section>
-
             </Layout>
         </>
     )

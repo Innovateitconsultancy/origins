@@ -5,9 +5,10 @@ import BrandSlider1 from "@/components/slider/BrandSlider1"
 import ProjectSlider2 from "@/components/slider/ProjectSlider2"
 import Link from "next/link"
 export const metadata = {
-    title: 'About Us - Origins - IV Drip Therapy & IV Vitamin Infusions',
+    title: 'About Us || Origins',
     description: 'About Us Origins IV Drip Therapy & IV Vitamin Infusions',
 };
+
 export default function About() {
 
     return (
