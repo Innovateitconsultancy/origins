@@ -1,4 +1,3 @@
-
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function Error404() {
@@ -6,7 +5,7 @@ export default function Error404() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Error 404">
+            <Layout headerStyle={1} footerStyle={3} breadcrumbTitle="Error 404">
                 <section className="Error-section section-padding fix">
                     <div className="container">
                         <div className="row justify-content-center">
