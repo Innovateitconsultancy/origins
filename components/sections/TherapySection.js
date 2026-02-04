@@ -128,8 +128,8 @@ export default function TherapySection() {
                                         <div className="service-content">
                                             <h4>Vitaglow</h4>
                                             <h5>Go for the glow</h5>
-                                            <p>Rich in antioxidants, it can help support optimum wellness and aiding maintenance of skin, hair and nails.</p>
-                                            <Link href="/" className="theme-btn-2 mt-3">
+                                            <p>Packed with nourishing ingredients, Vitaglow is designed to support...</p>
+                                            <Link href="/iv-drip-therapy/vitaglow" className="theme-btn-2 mt-3">
                                                 Find More
                                                 <i className="fa-solid fa-arrow-right-long" />
                                             </Link>

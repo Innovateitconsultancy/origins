@@ -62,7 +62,7 @@ export default function MobileMenu() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/iv-drip-therapy">
+                                        <Link href="/iv-drip-therapy/vitaglow">
                                             Vitaglow
                                             <span>Beauty & Pro-Aging</span>
                                         </Link>
