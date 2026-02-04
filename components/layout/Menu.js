@@ -37,17 +37,17 @@ export default function Menu() {
                                             <span>Hydration & Recovery</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/" className="theme-btn">
+                                        <Link href="/iv-drip-therapy/ultraviv" className="theme-btn">
                                             Ultraviv
                                             <span>Recovery</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/" className="theme-btn">
+                                        <Link href="/iv-drip-therapy/" className="theme-btn">
                                             Megaboost
                                             <span>Wellness</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/" className="theme-btn">
+                                        <Link href="/iv-drip-therapy/" className="theme-btn">
                                             Vitaglow
                                             <span>Beauty & Pro-Aging</span>
                                             <i className="fas fa-arrow-right-long" />
@@ -56,27 +56,27 @@ export default function Menu() {
                                 </div>
                                 <div className="homemenu">
                                     <div className="demo-button">
-                                        <Link href="/" className="theme-btn">
+                                        <Link href="/iv-drip-therapy/" className="theme-btn">
                                             Royal Flush
                                             <span>Recovery</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/" className="theme-btn">
+                                        <Link href="/iv-drip-therapy/" className="theme-btn">
                                             Formerly HELIIX
                                             <span>Detox</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/" className="theme-btn">
+                                        <Link href="/iv-drip-therapy/" className="theme-btn">
                                             NAD+
                                             <span>Wellness</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/" className="theme-btn">
+                                        <Link href="/iv-drip-therapy/" className="theme-btn">
                                             Personalised IV
                                             <span>Tailored to your Goals</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/" className="theme-btn">
+                                        <Link href="/iv-drip-therapy/" className="theme-btn">
                                             Ultraviv PRO
                                             <span>Recovery</span>
                                             <i className="fas fa-arrow-right-long" />

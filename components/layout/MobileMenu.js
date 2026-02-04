@@ -56,7 +56,7 @@ export default function MobileMenu() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/iv-drip-therapy/ultraviv">
                                             Megaboost
                                             <span>Wellness</span>
                                         </Link>

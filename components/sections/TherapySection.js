@@ -91,6 +91,22 @@ export default function TherapySection() {
                                 <SwiperSlide>
                                     <div className="service-card-items">
                                         <div className="service-image">
+                                            <img src="/assets/img/therapy/ultraviv.jpg" alt="therapy-img" />
+                                        </div>
+                                        <div className="service-content">
+                                            <h4>Ultraviv</h4>
+                                            <h5>Get Well & Bounce Back</h5>
+                                            <p>Formulated by our medical professionals, the Ultraviv IV drip aims to help you...</p>
+                                            <Link href="/iv-drip-therapy/ultraviv" className="theme-btn-2 mt-3">
+                                                Find More
+                                                <i className="fa-solid fa-arrow-right-long" />
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="service-card-items">
+                                        <div className="service-image">
                                             <img src="/assets/img/therapy/megaboost.jpg" alt="therapy-img" />
                                         </div>
                                         <div className="service-content">
@@ -113,22 +129,6 @@ export default function TherapySection() {
                                             <h4>Vitaglow</h4>
                                             <h5>Go for the glow</h5>
                                             <p>Rich in antioxidants, it can help support optimum wellness and aiding maintenance of skin, hair and nails.</p>
-                                            <Link href="/" className="theme-btn-2 mt-3">
-                                                Find More
-                                                <i className="fa-solid fa-arrow-right-long" />
-                                            </Link>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    <div className="service-card-items">
-                                        <div className="service-image">
-                                            <img src="/assets/img/therapy/ultravivnew.jpg" alt="therapy-img" />
-                                        </div>
-                                        <div className="service-content">
-                                            <h4>Ultraviv</h4>
-                                            <h5>Get Well & Bounce Back</h5>
-                                            <p>Formulated by our medical professionals, the Ultraviv IV drip aims to help you recover and rehydrate when needed.</p>
                                             <Link href="/" className="theme-btn-2 mt-3">
                                                 Find More
                                                 <i className="fa-solid fa-arrow-right-long" />
