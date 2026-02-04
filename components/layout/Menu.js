@@ -56,7 +56,7 @@ export default function Menu() {
                                 </div>
                                 <div className="homemenu">
                                     <div className="demo-button">
-                                        <Link href="/iv-drip-therapy/" className="theme-btn">
+                                        <Link href="/iv-drip-therapy/royal-flush" className="theme-btn">
                                             Royal Flush
                                             <span>Recovery</span>
                                             <i className="fas fa-arrow-right-long" />

@@ -6535,7 +6535,7 @@ input.main-search-input::placeholder {
   color: var(--theme);
 }
 .service-box-items .content p {
-  line-height: 24px;
+  line-height: 26px;
 }
 .service-box-items .content .theme-btn-2 {
   color: var(--header);
@@ -6543,17 +6543,24 @@ input.main-search-input::placeholder {
   text-align: right;
   display: block;
 }
+.service-box-items.small {
+  padding: 20px;
+}
+.service-box-items.small .icon {
+  width: 60px;
+  height: 60px;
+}
+.service-box-items.small .icon img {
+  width: 60px;
+  height: 60px;
+}
+.service-box-items.small .content h4 {
+  font-size: 14px;
+  font-weight: 500;
+}
 .service-box-items:hover::before {
   transform: scale(1, 1);
   transform-origin: top center;
-}
-.service-box-items:hover::after {
-  top: 0;
-  visibility: visible;
-  opacity: 1;
-}
-.service-box-items:hover .icon::before {
-  filter: grayscale(100%) brightness(300%);
 }
 .service-box-items:hover .content h4 {
   color: var(--white);

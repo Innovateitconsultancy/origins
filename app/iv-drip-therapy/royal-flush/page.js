@@ -2,14 +2,14 @@ import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 
 export const metadata = {
-    title: 'Megaboost || Origins',
-    description: 'Megaboost Origins IV Drip Therapy & IV Vitamin Infusions',
+    title: 'Royal Flush || Origins',
+    description: 'Royal Flush Origins IV Drip Therapy & IV Vitamin Infusions',
 };
 
-export default function Megaboost() {
+export default function RoyalFlush() {
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Megaboost">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Royal Flush">
                 <section className="Project-details-section fix section-padding inner">
                     <div className="container">
                         <div className="project-details-wrapper">
@@ -17,18 +17,18 @@ export default function Megaboost() {
                                 <div className="col-lg-12">
                                     <div className="project-details-items">
                                         <div className="details-image">
-                                            <img src="/assets/img/therapy/megaboost-img1.jpg" alt="img" />
+                                            <img src="/assets/img/therapy/royal-flush-img1.jpg" alt="img" />
                                         </div>
                                         <div className="row g-4 justify-content-between">
                                             <div className="col-lg-7">
                                                 <div className="details-content pt-5">
-                                                    <h3>The Signature IV</h3>
-                                                    <p>Created to promote overall wellness, the Megaboost infusion delivers a powerful mix of B vitamins, vitamin C, and essential minerals in a single drip to help support the body’s nutritional needs. It supports energy levels, immune health, and recovery while helping the body function at its best. This comprehensive blend is ideal for those looking to boost vitality and maintain balance. The infusion provides fast absorption for quick and effective results.</p>
+                                                    <h3>Recover your wellness</h3>
+                                                    <p>Bringing together the powerful benefits of Ultraviv, Megaboost, and Vitaglow, Royal Flush is our most complete recovery infusion. Enriched with a wide range of vitamins, minerals, and essential nutrients, this advanced IV drip is designed to support effective recovery and overall wellness. It helps restore energy levels, support immunity, and promote hydration. This premium blend is ideal for full-body revitalization and peak performance.</p>
                                                 </div>
                                             </div>
                                             <div className="col-lg-4">
                                                 <div className="project-catagory">
-                                                    <img src="/assets/img/therapy/megaboost.jpg" alt="img" />
+                                                    <img src="/assets/img/therapy/royal-flush.jpg" alt="img" />
                                                 </div>
                                             </div>
                                         </div>
@@ -39,13 +39,25 @@ export default function Megaboost() {
                                                 </div>
                                             </div>
                                             <div className="col-lg-4">
-                                                <Link href="/nutrients/vitamin-c">
+                                                <Link href="/nutrients/vitamin-b1">
                                                     <div className="service-box-items box-shadow">
                                                         <div className="icon">
-                                                            <img src="/assets/img/nutrients/vitamin-c.svg" alt="icon-img" />
+                                                            <img src="/assets/img/nutrients/vitamin-b1.svg" alt="icon-img" />
                                                         </div>
                                                         <div className="content">
-                                                            <h4>Vitamin C</h4>
+                                                            <h4>Vitamin B1</h4>
+                                                        </div>
+                                                    </div>
+                                                </Link>
+                                            </div>
+                                            <div className="col-lg-4">
+                                                <Link href="/nutrients/vitamin-b2">
+                                                    <div className="service-box-items box-shadow">
+                                                        <div className="icon">
+                                                            <img src="/assets/img/nutrients/vitamin-b2.svg" alt="icon-img" />
+                                                        </div>
+                                                        <div className="content">
+                                                            <h4>Vitamin B2</h4>
                                                         </div>
                                                     </div>
                                                 </Link>
@@ -63,18 +75,6 @@ export default function Megaboost() {
                                                 </Link>
                                             </div>
                                             <div className="col-lg-4">
-                                                <Link href="/nutrients/vitamin-b6">
-                                                    <div className="service-box-items box-shadow">
-                                                        <div className="icon">
-                                                            <img src="/assets/img/nutrients/vitamin-b6.svg" alt="icon-img" />
-                                                        </div>
-                                                        <div className="content">
-                                                            <h4>Vitamin B6</h4>
-                                                        </div>
-                                                    </div>
-                                                </Link>
-                                            </div>
-                                            <div className="col-lg-4">
                                                 <Link href="/nutrients/vitamin-b12">
                                                     <div className="service-box-items box-shadow">
                                                         <div className="icon">
@@ -87,25 +87,25 @@ export default function Megaboost() {
                                                 </Link>
                                             </div>
                                             <div className="col-lg-4">
-                                                <Link href="/nutrients/n-acetylcysteine">
+                                                <Link href="/nutrients/glutathione">
                                                     <div className="service-box-items box-shadow">
                                                         <div className="icon">
-                                                            <img src="/assets/img/nutrients/n-acetylcysteine.svg" alt="icon-img" />
+                                                            <img src="/assets/img/nutrients/glutathione.svg" alt="icon-img" />
                                                         </div>
                                                         <div className="content">
-                                                            <h4>N-Acetylcysteine</h4>
+                                                            <h4>Glutathione</h4>
                                                         </div>
                                                     </div>
                                                 </Link>
                                             </div>
                                             <div className="col-lg-4">
-                                                <Link href="/nutrients/vitamin-b1">
+                                                <Link href="/nutrients/magnesium">
                                                     <div className="service-box-items box-shadow">
                                                         <div className="icon">
-                                                            <img src="/assets/img/nutrients/vitamin-b1.svg" alt="icon-img" />
+                                                            <img src="/assets/img/nutrients/magnesium.svg" alt="icon-img" />
                                                         </div>
                                                         <div className="content">
-                                                            <h4>Vitamin B1</h4>
+                                                            <h4>Magnesium</h4>
                                                         </div>
                                                     </div>
                                                 </Link>
@@ -118,13 +118,37 @@ export default function Megaboost() {
                                                 </div>
                                             </div>
                                             <div className="col-lg-3">
-                                                <Link href="/nutrients/vitamin-b2">
+                                                <Link href="/nutrients/vitamin-b6">
                                                     <div className="service-box-items box-shadow small">
                                                         <div className="icon">
-                                                            <img src="/assets/img/nutrients/vitamin-b2.svg" alt="icon-img" />
+                                                            <img src="/assets/img/nutrients/vitamin-b6.svg" alt="icon-img" />
                                                         </div>
                                                         <div className="content">
-                                                            <h4>Vitamin B2</h4>
+                                                            <h4>Vitamin B6</h4>
+                                                        </div>
+                                                    </div>
+                                                </Link>
+                                            </div>
+                                            <div className="col-lg-3">
+                                                <Link href="/nutrients/vitamin-c">
+                                                    <div className="service-box-items box-shadow small">
+                                                        <div className="icon">
+                                                            <img src="/assets/img/nutrients/vitamin-c.svg" alt="icon-img" />
+                                                        </div>
+                                                        <div className="content">
+                                                            <h4>Vitamin C</h4>
+                                                        </div>
+                                                    </div>
+                                                </Link>
+                                            </div>
+                                            <div className="col-lg-3">
+                                                <Link href="/nutrients/n-acetylcysteine">
+                                                    <div className="service-box-items box-shadow small">
+                                                        <div className="icon">
+                                                            <img src="/assets/img/nutrients/n-acetylcysteine.svg" alt="icon-img" />
+                                                        </div>
+                                                        <div className="content">
+                                                            <h4>N-Acetylcysteine</h4>
                                                         </div>
                                                     </div>
                                                 </Link>
@@ -141,19 +165,67 @@ export default function Megaboost() {
                                                     </div>
                                                 </Link>
                                             </div>
+                                            <div className="col-lg-3">
+                                                <Link href="/nutrients/vitamin-b5">
+                                                    <div className="service-box-items box-shadow small">
+                                                        <div className="icon">
+                                                            <img src="/assets/img/nutrients/vitamin-b5.svg" alt="icon-img" />
+                                                        </div>
+                                                        <div className="content">
+                                                            <h4>Vitamin B5</h4>
+                                                        </div>
+                                                    </div>
+                                                </Link>
+                                            </div>
+                                            <div className="col-lg-3">
+                                                <Link href="/nutrients/selenium">
+                                                    <div className="service-box-items box-shadow small">
+                                                        <div className="icon">
+                                                            <img src="/assets/img/nutrients/selenium.svg" alt="icon-img" />
+                                                        </div>
+                                                        <div className="content">
+                                                            <h4>Selenium</h4>
+                                                        </div>
+                                                    </div>
+                                                </Link>
+                                            </div>
+                                            <div className="col-lg-3">
+                                                <Link href="/nutrients/zinc">
+                                                    <div className="service-box-items box-shadow small">
+                                                        <div className="icon">
+                                                            <img src="/assets/img/nutrients/zinc.svg" alt="icon-img" />
+                                                        </div>
+                                                        <div className="content">
+                                                            <h4>Zinc</h4>
+                                                        </div>
+                                                    </div>
+                                                </Link>
+                                            </div>
+                                            <div className="col-lg-3">
+                                                <Link href="/nutrients/glutathione">
+                                                    <div className="service-box-items box-shadow small">
+                                                        <div className="icon">
+                                                            <img src="/assets/img/nutrients/glutathione.svg" alt="icon-img" />
+                                                        </div>
+                                                        <div className="content">
+                                                            <h4>Glutathione</h4>
+                                                        </div>
+                                                    </div>
+                                                </Link>
+                                            </div>
                                         </div>
                                         <div className="row g-lg-5 g-4 pt-5 mt-lg-5">
                                             <div className="col-lg-5">
                                                 <div className="thumb">
-                                                    <img src="/assets/img/therapy/megaboost-img2.jpg" alt="img" />
+                                                    <img src="/assets/img/therapy/royal-flush-img2.jpg" alt="img" />
                                                 </div>
                                             </div>
                                             <div className="col-lg-7">
                                                 <div className="details-content">
                                                     <h3>How does it work?</h3>
-                                                    <p className="mb-2">Megaboost’s key nutrients work together to support energy production, immune function, recovery, and overall well-being.</p>
-                                                    <p className="mb-3"><b>Megaboost key nutrients contribute to:</b></p>
-                                                    <ul className="list">
+                                                    <p className="mb-2">Royal Flush’s key nutrients work together to support recovery, boost energy levels, strengthen immunity, promote hydration, and enhance overall well-being.</p>
+                                                    <p className="mb-3"><b>Royal Flush key nutrients contribute to:</b></p>
+                                                    <ul className="list mb-3">
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
                                                             Supports healthy energy production in the body
@@ -164,41 +236,26 @@ export default function Megaboost() {
                                                         </li>
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Helps maintain normal homocysteine processing
+                                                            Helps maintain normal red blood cell levels
                                                         </li>
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Supports healthy mental and psychological function
+                                                            Aids in the healthy processing of iron
                                                         </li>
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Aids in the normal formation of red blood cells
+                                                            Supports normal protein and glycogen metabolism
                                                         </li>
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Promotes normal collagen production for tissues and skin
+                                                            Helps regulate balanced hormone activity
                                                         </li>
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
-                                                            Strengthens normal immune system function
-                                                        </li>
-                                                        <li>
-                                                            <i className="fa-regular fa-circle-check" />
-                                                            Helps reduce feelings of tiredness and fatigue
-                                                        </li>
-                                                        <li>
-                                                            <i className="fa-regular fa-circle-check" />
-                                                            Assists in restoring active vitamin E levels
-                                                        </li>
-                                                        <li>
-                                                            <i className="fa-regular fa-circle-check" />
-                                                            Enhances the body’s absorption of iron
-                                                        </li>
-                                                        <li>
-                                                            <i className="fa-regular fa-circle-check" />
-                                                            Supports the body during acute infections
+                                                            Assists in the breakdown of mucus in the body
                                                         </li>
                                                     </ul>
+                                                    <p>You will first have an assessment with a qualified medical professional to confirm that the IV therapy is suitable for your needs. Following the consultation, you may be advised to visit or be referred to your GP if further care is required.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -222,14 +279,14 @@ export default function Megaboost() {
                                                 </Link>
                                             </div>
                                             <div className="col-lg-3 pt-lg-5">
-                                                <Link href="/vitamin-shots/biotin">
+                                                <Link href="/vitamin-shots/vitaboost">
                                                     <div className="service-box-items style box-shadow">
                                                         <div className="icon">
-                                                            <img src="/assets/img/vitamin-shots/biotin.svg" alt="icon-img" />
+                                                            <img src="/assets/img/vitamin-shots/vitaboost.svg" alt="icon-img" />
                                                         </div>
                                                         <div className="content">
-                                                            <p>Helps maintain the normal appearance of hair and skin, while also supporting a normal metabolism and normal psychological function. It also contributes to overall energy levels and daily well-being.</p>
-                                                            <Link href="/vitamin-shots/biotin" className="theme-btn-2">Find More</Link>
+                                                            <p>The Vitaboost vitamin shot supports your body’s natural glutathione levels to help protect cells from oxidative stress. It also promotes detoxification and overall wellness.</p>
+                                                            <Link href="/vitamin-shots/vitaboost" className="theme-btn-2">Find More</Link>
                                                         </div>
                                                     </div>
                                                 </Link>

@@ -143,9 +143,9 @@ export default function TherapySection() {
                                         </div>
                                         <div className="service-content">
                                             <h4>Royal Flush</h4>
-                                            <h5>Restore & Recuperate</h5>
-                                            <p>Packed with vitamins, minerals and more, the Royal Flush IV drip works to support normal recovery and wellness.</p>
-                                            <Link href="/" className="theme-btn-2 mt-3">
+                                            <h5>Recover your wellness</h5>
+                                            <p>Bringing together the powerful benefits of Ultraviv, Megaboost...</p>
+                                            <Link href="/iv-drip-therapy/royal-flush" className="theme-btn-2 mt-3">
                                                 Find More
                                                 <i className="fa-solid fa-arrow-right-long" />
                                             </Link>

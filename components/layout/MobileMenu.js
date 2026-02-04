@@ -68,7 +68,7 @@ export default function MobileMenu() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/iv-drip-therapy/royal-flush">
                                             Royal Flush
                                             <span>Recovery</span>
                                         </Link>
