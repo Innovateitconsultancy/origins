@@ -1,8 +1,4 @@
-
-import CounterUp from "@/components/elements/CounterUp"
 import Layout from "@/components/layout/Layout"
-import BrandSlider1 from "@/components/slider/BrandSlider1"
-import ProjectSlider2 from "@/components/slider/ProjectSlider2"
 import Link from "next/link"
 export const metadata = {
     title: 'About Us || Origins',
@@ -30,7 +26,7 @@ export default function About() {
                                                     <img src="/assets/img/about/icon-1.svg" alt="icon-img" />
                                                 </div>
                                                 <div className="content">
-                                                    <h3><CounterUp count={25} />Years</h3>
+                                                    <h3>25 Years</h3>
                                                     <p>Of Experience</p>
                                                 </div>
                                             </div>
@@ -275,9 +271,6 @@ export default function About() {
                                     <button className="array-next"><i className="fal fa-arrow-left" /></button>
                                 </div>
                             </div>
-                            <div className="project-wrapper">
-                                <ProjectSlider2 showDots />
-                            </div>
                         </div>
                     </section>
                     {/*<< Marque Section Start >>*/}
@@ -413,7 +406,6 @@ export default function About() {
                         <div className="container">
                             <div className="brand-wrapper">
                                 <h6 className="text-center wow fadeInUp" data-wow-delay=".3s">1k + Brands Trust Us</h6>
-                                <BrandSlider1 />
                             </div>
                         </div>
                     </div>
