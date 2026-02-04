@@ -50,7 +50,7 @@ export default function MobileMenu() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/iv-drip-therapy/hydromax">
                                             Ultraviv
                                             <span>Recovery</span>
                                         </Link>

@@ -32,7 +32,7 @@ export default function Menu() {
                                             <span>Wellness & Detox</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/" className="theme-btn">
+                                        <Link href="/iv-drip-therapy/hydromax" className="theme-btn">
                                             Hydromax
                                             <span>Hydration & Recovery</span>
                                             <i className="fas fa-arrow-right-long" />

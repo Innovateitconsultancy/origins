@@ -75,6 +75,22 @@ export default function TherapySection() {
                                 <SwiperSlide>
                                     <div className="service-card-items">
                                         <div className="service-image">
+                                            <img src="/assets/img/therapy/hydromax.jpg" alt="therapy-img" />
+                                        </div>
+                                        <div className="service-content">
+                                            <h4>Hydromax</h4>
+                                            <h5>Your Peak Perfomance</h5>
+                                            <p>Our Hydromax IV therapy is scientifically designed for hydration and to support...</p>
+                                            <Link href="/iv-drip-therapy/hydromax" className="theme-btn-2 mt-3">
+                                                Find More
+                                                <i className="fa-solid fa-arrow-right-long" />
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="service-card-items">
+                                        <div className="service-image">
                                             <img src="/assets/img/therapy/megaboost.jpg" alt="therapy-img" />
                                         </div>
                                         <div className="service-content">
@@ -97,22 +113,6 @@ export default function TherapySection() {
                                             <h4>Vitaglow</h4>
                                             <h5>Go for the glow</h5>
                                             <p>Rich in antioxidants, it can help support optimum wellness and aiding maintenance of skin, hair and nails.</p>
-                                            <Link href="/" className="theme-btn-2 mt-3">
-                                                Find More
-                                                <i className="fa-solid fa-arrow-right-long" />
-                                            </Link>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    <div className="service-card-items">
-                                        <div className="service-image">
-                                            <img src="/assets/img/therapy/hydromax.jpg" alt="therapy-img" />
-                                        </div>
-                                        <div className="service-content">
-                                            <h4>Hydromax</h4>
-                                            <h5>Your Peak Perfomance</h5>
-                                            <p>Our Hydromax IV therapy is scientifically designed for hydration and to support your body’s metabolism.</p>
                                             <Link href="/" className="theme-btn-2 mt-3">
                                                 Find More
                                                 <i className="fa-solid fa-arrow-right-long" />
