@@ -11,7 +11,7 @@ export default function AchievementSection() {
                     <div className="counter-area">
                         <div className="counter-items wow fadeInUp" data-wow-delay=".3s">
                             <div className="icon">
-                                <img src="/assets/img/achievement-icon/01.svg" alt="icon-img" />
+                                <img src="/assets/img/achievement-icon-1.svg" alt="icon-img" />
                             </div>
                             <div className="content">
                                 <h2>2013</h2>
@@ -20,7 +20,7 @@ export default function AchievementSection() {
                         </div>
                         <div className="counter-items wow fadeInUp" data-wow-delay=".5s">
                             <div className="icon">
-                                <img src="/assets/img/achievement-icon/02.svg" alt="icon-img" />
+                                <img src="/assets/img/achievement-icon-2.svg" alt="icon-img" />
                             </div>
                             <div className="content">
                                 <h2>3 million</h2>
@@ -29,7 +29,7 @@ export default function AchievementSection() {
                         </div>
                         <div className="counter-items wow fadeInUp" data-wow-delay=".7s">
                             <div className="icon">
-                                <img src="/assets/img/achievement-icon/03.svg" alt="icon-img" />
+                                <img src="/assets/img/achievement-icon-3.svg" alt="icon-img" />
                             </div>
                             <div className="content">
                                 <h2>47</h2>
