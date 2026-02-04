@@ -64,7 +64,7 @@ export default function TherapySection() {
                                         <div className="service-content">
                                             <h4>Miniboost</h4>
                                             <h5>Small & Mighty</h5>
-                                            <p>Most popular wellness infusion, formulated to deliver the nutrients you require...</p>
+                                            <p>Maintain your nutritional balance with Miniboost, a compact yet powerful...</p>
                                             <Link href="/iv-drip-therapy/miniboost" className="theme-btn-2 mt-3">
                                                 Find More
                                                 <i className="fa-solid fa-arrow-right-long" />
@@ -80,7 +80,7 @@ export default function TherapySection() {
                                         <div className="service-content">
                                             <h4>Hydromax</h4>
                                             <h5>Your Peak Perfomance</h5>
-                                            <p>Our Hydromax IV therapy is scientifically designed for hydration and to support...</p>
+                                            <p>Hydromax IV therapy is carefully formulated using scientific principles...</p>
                                             <Link href="/iv-drip-therapy/hydromax" className="theme-btn-2 mt-3">
                                                 Find More
                                                 <i className="fa-solid fa-arrow-right-long" />
@@ -96,7 +96,7 @@ export default function TherapySection() {
                                         <div className="service-content">
                                             <h4>Ultraviv</h4>
                                             <h5>Get Well & Bounce Back</h5>
-                                            <p>Formulated by our medical professionals, the Ultraviv IV drip aims to help you...</p>
+                                            <p>Ultraviv is expertly developed by our medical team with a unique combination...</p>
                                             <Link href="/iv-drip-therapy/ultraviv" className="theme-btn-2 mt-3">
                                                 Find More
                                                 <i className="fa-solid fa-arrow-right-long" />
@@ -112,8 +112,8 @@ export default function TherapySection() {
                                         <div className="service-content">
                                             <h4>Megaboost</h4>
                                             <h5>The signature IV</h5>
-                                            <p>Designed with wellness in mind, the nutrient-rich, formulated to deliver the nutrients you require.</p>
-                                            <Link href="/" className="theme-btn-2 mt-3">
+                                            <p>Created to promote overall wellness, the Megaboost infusion delivers a powerful...</p>
+                                            <Link href="/iv-drip-therapy/megaboost" className="theme-btn-2 mt-3">
                                                 Find More
                                                 <i className="fa-solid fa-arrow-right-long" />
                                             </Link>

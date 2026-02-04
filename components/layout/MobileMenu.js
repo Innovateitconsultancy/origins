@@ -44,25 +44,25 @@ export default function MobileMenu() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/iv-drip-therapy/hydromax">
                                             Hydromax
                                             <span>Hydration & Recovery</span>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/iv-drip-therapy/hydromax">
+                                        <Link href="/iv-drip-therapy/ultraviv">
                                             Ultraviv
                                             <span>Recovery</span>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/iv-drip-therapy/ultraviv">
+                                        <Link href="/iv-drip-therapy/megaboost">
                                             Megaboost
                                             <span>Wellness</span>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/iv-drip-therapy">
                                             Vitaglow
                                             <span>Beauty & Pro-Aging</span>
                                         </Link>

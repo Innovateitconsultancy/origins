@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export const metadata = {
     title: 'Ultraviv || Origins',
-    description: 'Hydromax Origins IV Drip Therapy & IV Vitamin Infusions',
+    description: 'Ultraviv Origins IV Drip Therapy & IV Vitamin Infusions',
 };
 
 export default function Ultraviv() {

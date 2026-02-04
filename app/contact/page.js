@@ -72,7 +72,7 @@ export default function Contact() {
                                             <p>
                                                 Nullam varius, erat quis iaculis dictum, eros urna varius eros, ut blandit felis odio in turpis. Quisque rhoncus, eros in auctor ultrices,
                                             </p>
-                                            <form action="contact.php" id="contact-form" method="POST" className="contact-form-items">
+                                            <form action="#" id="contact-form" method="POST" className="contact-form-items">
                                                 <div className="row g-4">
                                                     <div className="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
                                                         <div className="form-clt">
