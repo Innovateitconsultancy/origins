@@ -92,7 +92,7 @@ export default function MobileMenu() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/iv-drip-therapy/ultraviv-pro">
                                             Ultraviv PRO
                                             <span>Recovery</span>
                                         </Link>

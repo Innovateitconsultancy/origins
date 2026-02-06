@@ -76,7 +76,7 @@ export default function Menu() {
                                             <span>Tailored to your Goals</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/iv-drip-therapy/" className="theme-btn">
+                                        <Link href="/iv-drip-therapy/ultraviv-pro" className="theme-btn">
                                             Ultraviv PRO
                                             <span>Recovery</span>
                                             <i className="fas fa-arrow-right-long" />
