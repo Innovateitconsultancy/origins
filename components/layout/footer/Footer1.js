@@ -38,13 +38,13 @@ export default function Footer1() {
                                     </div>
                                     <ul className="list-area">
                                         <li>
-                                            <Link href="/">
+                                            <Link href="iv-drip-therapy">
                                                 <i className="fa-solid fa-chevron-right" />
                                                 IV Drip Therapy
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/">
+                                            <Link href="/vitamin-shots">
                                                 <i className="fa-solid fa-chevron-right" />
                                                 Vitamin Shots
                                             </Link>

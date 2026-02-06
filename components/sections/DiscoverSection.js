@@ -33,7 +33,7 @@ export default function DiscoverSection() {
                                 <div className="team-content">
                                     <h3>Vitamin shots</h3>
                                     <p>A quick method of receiving essential nutrients into your body.</p>
-                                    <Link href="/" className="theme-btn-3 mt-3 text-end d-block">Find out more</Link>
+                                    <Link href="/vitamin-shots" className="theme-btn-3 mt-3 text-end d-block">Find out more</Link>
                                 </div>
                             </div>
                         </div>
