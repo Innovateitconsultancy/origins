@@ -76,15 +76,15 @@ export default function Menu() {
                                             <span>Tailored to your Goals</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
+                                    </div>
+                                </div>
+                                <div className="homemenu">
+                                    <div className="demo-button">
                                         <Link href="/iv-drip-therapy/ultraviv-pro" className="theme-btn">
                                             Ultraviv PRO
                                             <span>Recovery</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                    </div>
-                                </div>
-                                <div className="homemenu">
-                                    <div className="demo-button">
                                         <Link href="/iv-drip-therapy/the-signature-10x-iv" className="theme-btn">
                                             The Signature 10X IV
                                             <span>Specialty / Wellness</span>
@@ -95,14 +95,9 @@ export default function Menu() {
                                             <span>Advanced Formulation for Wellness</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/iv-drip-therapy/" className="theme-btn">
+                                        <Link href="/iv-drip-therapy/methylene-blue" className="theme-btn">
                                             Methylene Blue
                                             <span>Cellular Energy & Brain Support</span>
-                                            <i className="fas fa-arrow-right-long" />
-                                        </Link>
-                                        <Link href="/iv-drip-therapy/" className="theme-btn">
-                                            Trichology
-                                            <span>Hair, Scalp & Cellular Support</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
                                     </div>

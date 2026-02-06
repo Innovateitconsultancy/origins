@@ -184,6 +184,22 @@ export default function TherapySection() {
                                         </div>
                                     </div>
                                 </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="service-card-items">
+                                        <div className="service-image">
+                                            <img src="/assets/img/therapy/methylene-blue.jpg" alt="therapy-img" />
+                                        </div>
+                                        <div className="service-content">
+                                            <h4>Methylene Blue</h4>
+                                            <h5>Biohack your baseline</h5>
+                                            <p>In today’s fast-paced lifestyle where concentration, quick recovery, and sustained...</p>
+                                            <Link href="/iv-drip-therapy/methylene-blue" className="theme-btn-2 mt-3">
+                                                Find More
+                                                <i className="fa-solid fa-arrow-right-long" />
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
                             </Swiper>
                         </div>
                     </div>

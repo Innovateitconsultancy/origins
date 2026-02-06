@@ -110,15 +110,9 @@ export default function MobileMenu() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/iv-drip-therapy/">
+                                        <Link href="/iv-drip-therapy/methylene-blue">
                                             Methylene Blue
                                             <span>Cellular Energy & Brain Support</span>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/iv-drip-therapy/">
-                                            Trichology
-                                            <span>Hair, Scalp & Cellular Support</span>
                                         </Link>
                                     </li>
                                 </ul>
