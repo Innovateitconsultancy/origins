@@ -74,7 +74,7 @@ export default function MobileMenu() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/iv-drip-therapy/formerly-heliix">
                                             Formerly HELIIX
                                             <span>Detox</span>
                                         </Link>

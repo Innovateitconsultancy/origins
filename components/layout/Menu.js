@@ -61,7 +61,7 @@ export default function Menu() {
                                             <span>Recovery</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/iv-drip-therapy/" className="theme-btn">
+                                        <Link href="/iv-drip-therapy/formerly-heliix" className="theme-btn">
                                             Formerly HELIIX
                                             <span>Detox</span>
                                             <i className="fas fa-arrow-right-long" />
