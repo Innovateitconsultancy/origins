@@ -127,49 +127,49 @@ export default function MobileMenu() {
                                         <Link href="/vitamin-shots">Vitamin Shots</Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/vitamin-shots/b-family">
                                             B Family
                                             <span>Energy Metabolism & Nervous System</span>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/vitamin-shots/">
                                             Biotin
                                             <span>Healthy Skin, Hair, & Energy Levels</span>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/vitamin-shots/">
                                             Vitamin C
                                             <span>Supports Immune System, Recovery & Collagen Production</span>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/vitamin-shots/">
                                             Vitamin D
                                             <span>Supports Immunity, Bone Strength & Overall Wellness</span>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/vitamin-shots/">
                                             CoQ10 Family
                                             <span>Supports Fitness, Heart Health & Cellular Energy</span>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/vitamin-shots/">
                                             NAD+ IM
                                             <span>Cellular Energy & Healthy Aging Support</span>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/vitamin-shots/">
                                             Vitaboost
                                             <span>Cellular Antioxidant & Detoxification Support</span>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/vitamin-shots/">
                                             Slimboost
                                             <span>Supports Metabolism & Fat Processing</span>
                                         </Link>

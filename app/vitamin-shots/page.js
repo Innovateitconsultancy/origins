@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout"
+
 export const metadata = {
     title: 'Vitamin Shots || Origins',
     description: 'Vitamin Shots for an immune system and metabolism boost',

@@ -127,22 +127,22 @@ export default function Menu() {
                             <div className="homemenu-items">
                                 <div className="homemenu">
                                     <div className="demo-button">
-                                        <Link href="/" className="theme-btn">
+                                        <Link href="/vitamin-shots/b-family" className="theme-btn">
                                             B Family
                                             <span>Energy Metabolism & Nervous System</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/" className="theme-btn">
+                                        <Link href="/vitamin-shots/" className="theme-btn">
                                             Biotin
                                             <span>Healthy Skin, Hair, & Energy Levels</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/" className="theme-btn">
+                                        <Link href="/vitamin-shots/" className="theme-btn">
                                             Vitamin C
                                             <span>Supports Immune System, Recovery & Collagen Production</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/" className="theme-btn">
+                                        <Link href="/vitamin-shots/" className="theme-btn">
                                             Vitamin D
                                             <span>Supports Immunity, Bone Strength & Overall Wellness</span>
                                             <i className="fas fa-arrow-right-long" />
@@ -151,22 +151,22 @@ export default function Menu() {
                                 </div>
                                 <div className="homemenu">
                                     <div className="demo-button">
-                                        <Link href="/" className="theme-btn">
+                                        <Link href="/vitamin-shots/" className="theme-btn">
                                             CoQ10 Family
                                             <span>Supports Fitness, Heart Health & Cellular Energy</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/" className="theme-btn">
+                                        <Link href="/vitamin-shots/" className="theme-btn">
                                             NAD+ IM
                                             <span>Cellular Energy & Healthy Aging Support</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/" className="theme-btn">
+                                        <Link href="/vitamin-shots/" className="theme-btn">
                                             Vitaboost
                                             <span>Cellular Antioxidant & Detoxification Support</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/" className="theme-btn">
+                                        <Link href="/vitamin-shots/" className="theme-btn">
                                             Slimboost
                                             <span>Supports Metabolism & Fat Processing</span>
                                             <i className="fas fa-arrow-right-long" />
