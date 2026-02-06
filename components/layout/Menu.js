@@ -90,7 +90,7 @@ export default function Menu() {
                                             <span>Specialty / Wellness</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/iv-drip-therapy/" className="theme-btn">
+                                        <Link href="/iv-drip-therapy/harrods-signature-iv-therapy" className="theme-btn">
                                             Harrods Signature IV Therapy
                                             <span>Advanced Formulation for Wellness</span>
                                             <i className="fas fa-arrow-right-long" />

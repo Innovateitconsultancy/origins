@@ -104,7 +104,7 @@ export default function MobileMenu() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/iv-drip-therapy/">
+                                        <Link href="/iv-drip-therapy/harrods-signature-iv-therapy">
                                             Harrods Signature IV Therapy
                                             <span>Advanced Formulation for Wellness</span>
                                         </Link>
