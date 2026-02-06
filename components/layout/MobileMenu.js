@@ -86,7 +86,7 @@ export default function MobileMenu() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/iv-drip-therapy/personalised-iv">
                                             Personalised IV
                                             <span>Tailored to your Goals</span>
                                         </Link>

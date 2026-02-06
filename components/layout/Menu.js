@@ -71,7 +71,7 @@ export default function Menu() {
                                             <span>Wellness</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/iv-drip-therapy/" className="theme-btn">
+                                        <Link href="/iv-drip-therapy/personalised-iv" className="theme-btn">
                                             Personalised IV
                                             <span>Tailored to your Goals</span>
                                             <i className="fas fa-arrow-right-long" />
