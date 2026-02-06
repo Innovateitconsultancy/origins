@@ -98,25 +98,25 @@ export default function MobileMenu() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/iv-drip-therapy/the-signature-10x-iv">
                                             The Signature 10X IV
                                             <span>Specialty / Wellness</span>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/iv-drip-therapy/">
                                             Harrods Signature IV Therapy
                                             <span>Advanced Formulation for Wellness</span>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/iv-drip-therapy/">
                                             Methylene Blue
                                             <span>Cellular Energy & Brain Support</span>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/iv-drip-therapy/">
                                             Trichology
                                             <span>Hair, Scalp & Cellular Support</span>
                                         </Link>

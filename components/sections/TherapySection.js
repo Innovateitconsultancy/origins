@@ -176,7 +176,7 @@ export default function TherapySection() {
                                         <div className="service-content">
                                             <h4>Ultraviv PRO</h4>
                                             <h5>Ultraviv like a PRO</h5>
-                                            <p>Ultraviv PRO is a thoughtfully crafted blend of vitamins, minerals, and essential nutrients...</p>
+                                            <p>Ultraviv PRO is a thoughtfully crafted blend of vitamins, minerals, and essential...</p>
                                             <Link href="/iv-drip-therapy/ultraviv-pro" className="theme-btn-2 mt-3">
                                                 Find More
                                                 <i className="fa-solid fa-arrow-right-long" />
