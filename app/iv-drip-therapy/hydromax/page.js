@@ -84,7 +84,7 @@ export default function Hydromax() {
                                             <div className="col-lg-7">
                                                 <div className="details-content">
                                                     <h3>How does it work?</h3>
-                                                    <p className="mb-2">Hydromax’s key nutrients help maintain proper hydration, support healthy metabolic function, boost energy levels, and promote overall balance and well-being in the body.</p>
+                                                    <p className="mb-3">Hydromax’s key nutrients help maintain proper hydration, support healthy metabolic function, boost energy levels, and promote overall balance and well-being in the body.</p>
                                                     <p className="mb-3"><b>Hydromax key nutrients contribute to:</b></p>
                                                     <ul className="list">
                                                         <li>

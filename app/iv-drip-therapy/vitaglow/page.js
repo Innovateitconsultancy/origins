@@ -96,7 +96,7 @@ export default function Vitaglow() {
                                             <div className="col-lg-7">
                                                 <div className="details-content">
                                                     <h3>How does it work?</h3>
-                                                    <p className="mb-2">Vitaglow’s key nutrients work together to support healthy skin, strengthen hair and nails, promote overall wellness, and enhance the body’s natural glow from within.</p>
+                                                    <p className="mb-3">Vitaglow’s key nutrients work together to support healthy skin, strengthen hair and nails, promote overall wellness, and enhance the body’s natural glow from within.</p>
                                                     <p className="mb-3"><b>Vitaglow key nutrients contribute to:</b></p>
                                                     <ul className="list">
                                                         <li>

@@ -96,7 +96,7 @@ export default function Miniboost() {
                                             <div className="col-lg-7">
                                                 <div className="details-content">
                                                     <h3>How does it work?</h3>
-                                                    <p className="mb-2">Miniboost’s key nutrients help support energy production, reduce fatigue, and maintain the healthy functioning of the nervous system, immune system, bones, and teeth.</p>
+                                                    <p className="mb-3">Miniboost’s key nutrients help support energy production, reduce fatigue, and maintain the healthy functioning of the nervous system, immune system, bones, and teeth.</p>
                                                     <p className="mb-3"><b>Miniboost key nutrients contribute to:</b></p>
                                                     <ul className="list">
                                                         <li>

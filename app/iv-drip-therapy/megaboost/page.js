@@ -151,7 +151,7 @@ export default function Megaboost() {
                                             <div className="col-lg-7">
                                                 <div className="details-content">
                                                     <h3>How does it work?</h3>
-                                                    <p className="mb-2">Megaboost’s key nutrients work together to support energy production, immune function, recovery, and overall well-being.</p>
+                                                    <p className="mb-3">Megaboost’s key nutrients work together to support energy production, immune function, recovery, and overall well-being.</p>
                                                     <p className="mb-3"><b>Megaboost key nutrients contribute to:</b></p>
                                                     <ul className="list">
                                                         <li>

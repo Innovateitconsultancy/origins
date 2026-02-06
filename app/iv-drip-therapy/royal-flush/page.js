@@ -223,7 +223,7 @@ export default function RoyalFlush() {
                                             <div className="col-lg-7">
                                                 <div className="details-content">
                                                     <h3>How does it work?</h3>
-                                                    <p className="mb-2">Royal Flush’s key nutrients work together to support recovery, boost energy levels, strengthen immunity, promote hydration, and enhance overall well-being.</p>
+                                                    <p className="mb-3">Royal Flush’s key nutrients work together to support recovery, boost energy levels, strengthen immunity, promote hydration, and enhance overall well-being.</p>
                                                     <p className="mb-3"><b>Royal Flush key nutrients contribute to:</b></p>
                                                     <ul className="list mb-3">
                                                         <li>

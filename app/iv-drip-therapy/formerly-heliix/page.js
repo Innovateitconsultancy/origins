@@ -41,9 +41,9 @@ export default function FormerlyHeliix() {
                                             <div className="col-lg-7">
                                                 <div className="details-content">
                                                     <h3>How does it work?</h3>
-                                                    <p className="mb-2">The new Origins IV has been carefully developed by Origins’ team of medical experts and scientists to provide a powerful blend of antioxidants, including vitamin C, glutathione, and alpha-lipoic acid, which work together to support detoxification and combat oxidative stress. This formula is complemented by a balanced mix of vitamins and minerals that help fuel cellular health, enhance energy production, and strengthen the immune system.</p>
+                                                    <p className="mb-3">The new Origins IV has been carefully developed by Origins’ team of medical experts and scientists to provide a powerful blend of antioxidants, including vitamin C, glutathione, and alpha-lipoic acid, which work together to support detoxification and combat oxidative stress. This formula is complemented by a balanced mix of vitamins and minerals that help fuel cellular health, enhance energy production, and strengthen the immune system.</p>
                                                     <p className="mb-3"><b>What is it for?</b></p>
-                                                    <ul className="list mb-3">
+                                                    <ul className="list">
                                                         <li>
                                                             <i className="fa-regular fa-circle-check" />
                                                             Helps support the body’s natural detox processes

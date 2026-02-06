@@ -84,7 +84,7 @@ export default function Ultraviv() {
                                             <div className="col-lg-7">
                                                 <div className="details-content">
                                                     <h3>How does it work?</h3>
-                                                    <p className="mb-2">Ultraviv’s key nutrients work together to support hydration, enhance recovery, boost energy levels, and promote overall balance and well-being throughout the body.</p>
+                                                    <p className="mb-3">Ultraviv’s key nutrients work together to support hydration, enhance recovery, boost energy levels, and promote overall balance and well-being throughout the body.</p>
                                                     <p className="mb-3"><b>Ultraviv key nutrients contributes to:</b></p>
                                                     <ul className="list mb-3">
                                                         <li>

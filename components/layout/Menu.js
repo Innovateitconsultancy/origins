@@ -66,7 +66,7 @@ export default function Menu() {
                                             <span>Detox</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/iv-drip-therapy/" className="theme-btn">
+                                        <Link href="/iv-drip-therapy/nad" className="theme-btn">
                                             NAD+
                                             <span>Wellness</span>
                                             <i className="fas fa-arrow-right-long" />

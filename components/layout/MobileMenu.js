@@ -80,7 +80,7 @@ export default function MobileMenu() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/iv-drip-therapy/nad">
                                             NAD+
                                             <span>Wellness</span>
                                         </Link>
