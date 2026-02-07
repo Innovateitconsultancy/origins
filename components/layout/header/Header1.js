@@ -28,8 +28,8 @@ export default function Header1({
                                     <Link href="/">Blog</Link>
                                     <Link href="/">Clinics</Link>
                                     <Link href="/">Join Us</Link>
-                                    <Link href="/">About Us</Link>
-                                    <Link href="/">Contact Us</Link>
+                                    <Link href="/about-us">About Us</Link>
+                                    <Link href="/contact-us">Contact Us</Link>
                                     <Link href="/">FAQs</Link>
                                 </div>
                             </div>

@@ -110,7 +110,7 @@ export default function Footer1() {
                                     </div>
                                     <ul className="list-area">
                                         <li>
-                                            <Link href="/about">
+                                            <Link href="/about-us">
                                                 <i className="fa-solid fa-chevron-right" />
                                                 About Us
                                             </Link>
@@ -134,7 +134,7 @@ export default function Footer1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/">
+                                            <Link href="/contact-us">
                                                 <i className="fa-solid fa-chevron-right" />
                                                 Contact Us
                                             </Link>
