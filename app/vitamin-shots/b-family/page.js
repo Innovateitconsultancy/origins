@@ -122,7 +122,7 @@ export default function BFamily() {
                                                     <h3>Book your B-Complex Shot today</h3>
                                                     <p>Feeling low on energy, focus, or overwhelmed by stress? Rebalance your body with a B-complex vitamin injection at Origins. This powerful blend of essential B vitamins supports daily wellness by promoting energy production, nervous system health, and overall vitality. Discover why so many people include B-complex shots as a regular part of their holistic self-care routine.</p>
                                                     <div className="d-flex justify-content-center pt-4 text-center">
-                                                        <Link href="/" className="theme-btn">
+                                                        <Link href="/contact" className="theme-btn">
                                                             Schedule Your Appointment Today
                                                             <i className="fa-solid fa-arrow-right-long" />
                                                         </Link>

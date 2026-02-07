@@ -133,7 +133,7 @@ export default function MobileMenu() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/vitamin-shots/">
+                                        <Link href="/vitamin-shots/biotin">
                                             Biotin
                                             <span>Healthy Skin, Hair, & Energy Levels</span>
                                         </Link>
