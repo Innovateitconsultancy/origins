@@ -1600,12 +1600,12 @@ span {
   border: 0;
   border-radius: 0;
   box-shadow: none;
-  background-color: var(--bg);
+  background-color: var(--white);
   padding: 25px 30px 0;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   font-size: 20px;
   border: 1px solid var(--border);
-  border: 1px solid transparent;
+  border-bottom: 0;
 }
 .faq-content .accordion-item .accordion-header .accordion-button::after {
   font-weight: 500;
@@ -1626,11 +1626,24 @@ span {
   color: var(--header);
 }
 .faq-content .accordion-item .accordion-collapse .accordion-body {
-  padding-right: 150px;
-  padding-left: 30px;
-  padding-top: 15px;
+  padding: 15px 100px 25px 30px;
   color: var(--text);
-  background-color: var(--bg);
+  background-color: var(--white);
+  border: 1px solid var(--border);
+  border-top: 0;
+}
+.faq-content .accordion-item .accordion-collapse .accordion-body p {
+  color: var(--header);
+  margin-bottom: 10px;
+}
+.faq-content .accordion-item .accordion-collapse .accordion-body ul {
+  color: var(--header);
+  list-style: disc;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.faq-content .accordion-item .accordion-collapse .accordion-body p:last-child {
+  margin-bottom: 0px;
 }
 @media (max-width: 1399px) {
   .faq-content .accordion-item .accordion-collapse .accordion-body {
@@ -6310,6 +6323,9 @@ input.main-search-input::placeholder {
   font-size: 30px;
   margin-bottom: 15px;
 }
+.project-details-wrapper .project-details-items .details-content h4 {
+  margin-bottom: 10px;
+}
 @media (max-width: 767px) {
   .project-details-wrapper .project-details-items .details-content h3 {
     font-size: 26px;
@@ -6404,6 +6420,9 @@ input.main-search-input::placeholder {
 @media (max-width: 767px) {
   .section-title {
     margin-bottom: 0;
+  }
+  .section-title h2 br {
+    display: none;
   }
 }
 .section-title span {
