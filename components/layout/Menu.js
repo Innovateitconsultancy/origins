@@ -132,7 +132,7 @@ export default function Menu() {
                                             <span>Energy Metabolism & Nervous System</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/vitamin-shots/" className="theme-btn">
+                                        <Link href="/vitamin-shots/biotin" className="theme-btn">
                                             Biotin
                                             <span>Healthy Skin, Hair, & Energy Levels</span>
                                             <i className="fas fa-arrow-right-long" />
