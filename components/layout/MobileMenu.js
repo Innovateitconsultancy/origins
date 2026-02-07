@@ -139,7 +139,7 @@ export default function MobileMenu() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/vitamin-shots/">
+                                        <Link href="/vitamin-shots/vitamin-c">
                                             Vitamin C
                                             <span>Supports Immune System, Recovery & Collagen Production</span>
                                         </Link>

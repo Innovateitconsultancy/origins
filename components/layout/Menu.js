@@ -137,7 +137,7 @@ export default function Menu() {
                                             <span>Healthy Skin, Hair, & Energy Levels</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/vitamin-shots/" className="theme-btn">
+                                        <Link href="/vitamin-shots/vitamin-c" className="theme-btn">
                                             Vitamin C
                                             <span>Supports Immune System, Recovery & Collagen Production</span>
                                             <i className="fas fa-arrow-right-long" />
