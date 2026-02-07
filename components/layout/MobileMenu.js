@@ -145,7 +145,7 @@ export default function MobileMenu() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/vitamin-shots/">
+                                        <Link href="/vitamin-shots/vitamin-d">
                                             Vitamin D
                                             <span>Supports Immunity, Bone Strength & Overall Wellness</span>
                                         </Link>

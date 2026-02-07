@@ -142,7 +142,7 @@ export default function Menu() {
                                             <span>Supports Immune System, Recovery & Collagen Production</span>
                                             <i className="fas fa-arrow-right-long" />
                                         </Link>
-                                        <Link href="/vitamin-shots/" className="theme-btn">
+                                        <Link href="/vitamin-shots/vitamin-d" className="theme-btn">
                                             Vitamin D
                                             <span>Supports Immunity, Bone Strength & Overall Wellness</span>
                                             <i className="fas fa-arrow-right-long" />

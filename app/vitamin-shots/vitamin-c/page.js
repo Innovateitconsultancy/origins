@@ -3,14 +3,14 @@ import Layout from "@/components/layout/Layout"
 import Faq from "@/app/vitamin-shots/vitamin-c/faq"
 
 export const metadata = {
-    title: 'VitaminC Vitamin Shots || Origins',
-    description: 'VitaminC Vitamin Shots for an immune system and metabolism boost',
+    title: 'Vitamin C Vitamin Shots || Origins',
+    description: 'Vitamin C Vitamin Shots for an immune system and metabolism boost',
 };
 
 export default function VitaminC() {
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="VitaminC">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Vitamin C">
                 <section className="Project-details-section fix section-padding inner">
                     <div className="container">
                         <div className="project-details-wrapper">
