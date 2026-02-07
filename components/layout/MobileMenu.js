@@ -151,7 +151,7 @@ export default function MobileMenu() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/vitamin-shots/">
+                                        <Link href="/vitamin-shots/coq10-family">
                                             CoQ10 Family
                                             <span>Supports Fitness, Heart Health & Cellular Energy</span>
                                         </Link>

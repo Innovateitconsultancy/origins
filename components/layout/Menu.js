@@ -151,7 +151,7 @@ export default function Menu() {
                                 </div>
                                 <div className="homemenu">
                                     <div className="demo-button">
-                                        <Link href="/vitamin-shots/" className="theme-btn">
+                                        <Link href="/vitamin-shots/coq10-family" className="theme-btn">
                                             CoQ10 Family
                                             <span>Supports Fitness, Heart Health & Cellular Energy</span>
                                             <i className="fas fa-arrow-right-long" />
