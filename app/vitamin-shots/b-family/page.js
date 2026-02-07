@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Layout from "@/components/layout/Layout"
-import Faq from "@/app/vitamin-shots/b-family/faq"
+// import Faq from "@/app/vitamin-shots/b-family/faq"
 
 export const metadata = {
     title: 'B Family Vitamin Shots || Origins',
@@ -111,11 +111,11 @@ export default function BFamily() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="row g-lg-5 g-4 pt-5 mt-lg-0">
+                                        {/* <div className="row g-lg-5 g-4 pt-5 mt-lg-0">
                                             <div className="col-lg-10 offset-lg-1">
                                                 <Faq />
                                             </div>
-                                        </div>
+                                        </div> */}
                                         <div className="row g-lg-5 g-4 pt-5 mt-lg-0">
                                             <div className="col-lg-10 offset-lg-1">
                                                 <div className="details-content">
